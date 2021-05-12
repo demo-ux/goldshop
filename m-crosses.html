@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <meta name="description" content="ოქროს სამკაულებისა და ნივთების მაღაზია">
+
+    <meta property="og:type" content="ოქროს ნივთების მაღაზია"/>
+
+    <meta property="og:title" content="მამაკაცის ოქროს ჯვრები" />
+
+    <meta property="og:description" content="კაცის ოქროს ჯვრების ყიდვა" />
+
+    <link rel="shortcut icon" href="favico.png" />
+
+    <meta property="og:site_name" content="Golds.Ge" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
+    <!-- CSS -->
+    <link rel="stylesheet" href="mystyle.css">
+    <title>კაცის ოქროს ჯვრები</title>
+  </head>
+  <body>
+    <header class="header-mobile">
+      <nav class="navbar navbar-expand-lg">
+        <div class="burger" onclick="myFunction(this)">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+        </div>
+        <a class="navbar-brand" href="index.html">მერის ნივთები</a>
+        <a href="https://www.facebook.com/Buy-Gold-in-Tbilisi-%E1%83%9D%E1%83%A5%E1%83%A0%E1%83%9D%E1%83%A3%E1%83%9A%E1%83%9D%E1%83%91%E1%83%90-%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%A8%E1%83%98-105005464670712"><i class="fa fa-facebook"></i></a>
+      </nav>
+      <div id="hiddenMenu">
+        <form class="d-flex">
+          <input class="form-control me-2 filterInput" type="search" placeholder="მოძებნე ნივთი..." aria-label="Search">
+          <button class="btn btn-search" type="submit">ძიება</button>
+        </form>
+        <a href="index.html" class="btn btn-block">მთავარი</a>
+        <button onclick="onWomanClick()" class="btn btn-block wm">ქალის<i id="chevronWoman" class="fa fa-chevron-down"></i></button>
+        <div id="hiddenUlWoman">
+          <div class="categories">
+            <a href="wm-crosses.html" class="nav-link">ჯვრები</a>
+            <a href="wm-rings.html" class="nav-link">ბეჭდები</a>
+            <a href="wm-bracelets.html" class="nav-link">ბრასლეტები</a>
+            <a href="wm-earings.html" class="nav-link">საყურეები</a>
+            <a href="wm-watches" class="nav-link">საათები</a>
+            <a href="wm-chain.html" class="nav-link">ცეპები</a>
+          </div>
+          <img src="img/watchWm1.jpg">
+        </div>
+        <button class="btn btn-block man" onclick="onManClick()">კაცის<i id="chevronMan" class="fa fa-chevron-down"></i></button>
+        <div id="hiddenUlMan">
+          <div class="categories">
+            <a href="m-crosses.html" class="nav-link">ჯვრები</a>
+            <a href="m-rings.html" class="nav-link">ბეჭდები</a>
+            <a href="m-bracelets.html" class="nav-link">ბრასლეტები</a>
+            <a href="m-watches.html" class="nav-link">საათები</a>
+            <a href="m-chain.html" class="nav-link">ცეპები</a>
+          </div>
+          <img src="img/5.jpg">
+        </div>
+      </div>
+    </header>
+    <div class="hero-content">
+      <section>
+        <h2><strong>ოქროს ნივთების მაღაზია</strong></h2>
+        <p>ყველაფერი, რაც ჩვენთან ბრწყინავს, ოქროა!</p>
+      </section> 
+    </div>
+    <section class="productsSection">
+      <h4>მამაკაცის ოქროს ჯვრები</h4>
+      <div class="filter">
+        <div class="mb-3">
+          <label for="Select" class="form-label">ფასის ფილტრი</label>
+          <select id="Select" class="form-select selectWmBrc select">
+            <option selected disabled>აირჩიეთ</option>
+            <option>ყველა</option>
+            <option>1₾ - 300₾</option>
+            <option>301₾ - 500₾</option>
+            <option>501₾ - 800₾</option>
+            <option>801₾ - 1000₾</option>
+            <option>1001₾ - 1500₾</option>
+            <option>1501₾ - 2000₾</option>
+            <option>2000₾+</option>
+          </select>
+        </div>
+      </div>
+      <div class="productsOuterDiv outerDivWmBrc">
+        <div class="productDiv">
+          <img src="img/product1.jpg" alt="">
+          <h6><strong>იტალიური ქარხნული ბეჭედი</strong></h6>
+          <p><strong>წონა:</strong> 3გრამი</p>
+          <p><strong>სინჯი(პრობი):</strong> 583</p>
+          <p><strong>ფასი:</strong> 400 ლარი</p>
+          <button class="btn btn-details">დეტალურად</button>
+        </div>
+        <div class="productDiv">
+          <img src="img/product2.jpg" alt="">
+          <h6><strong>იტალიური ქარხნული ბეჭედი</strong></h6>
+          <p><strong>წონა:</strong> 3გრამი</p>
+          <p><strong>სინჯი(პრობი):</strong> 583</p>
+          <p><strong>ფასი:</strong> 400 ლარი</p>
+          <button class="btn btn-details">დეტალურად</button>
+        </div>
+        <div class="productDiv">
+          <img src="img/product3.jpg" alt="">
+          <h6><strong>იტალიური ქარხნული ბეჭედი</strong></h6>
+          <p><strong>წონა:</strong> 3გრამი</p>
+          <p><strong>სინჯი(პრობი):</strong> 583</p>
+          <p><strong>ფასი:</strong> 400 ლარი</p>
+          <button class="btn btn-details">დეტალურად</button>
+        </div>
+        <div class="productDiv">
+          <img src="img/product4.jpg" alt="">
+          <h6><strong>იტალიური ქარხნული ბეჭედი</strong></h6>
+          <p><strong>წონა:</strong> 3გრამი</p>
+          <p><strong>სინჯი(პრობი):</strong> 583</p>
+          <p><strong>ფასი:</strong> 400 ლარი</p>
+          <button class="btn btn-details">დეტალურად</button>
+        </div>
+      </div>
+    </section>
+     <footer>
+       <section>
+        <div class="adressDiv">
+          <address>სადგურის მოედანი, თბილისი ცენტრალი, ოქროს ბირჟა, მაგიდა 61 
+          </address>
+          <a class="tel" href="tel:995597733199">(+995) 597 733 199
+          </a>
+        </div>
+        <div class="mapOuter">
+          <div style="width: 100%"><iframe width="100%" height="290" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Tbilisi%20Central%20Railway%20Station+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+        </div>
+        <h3>©Golds.Ge - ოქროს ნივთების მაღაზია</h3>
+       </section>
+     </footer>
+    <!-- Hero Content -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     
+    
+    <script src="mCross.js"></script>
+    <script src="myscript.js"></script>
+  </body>
+</html>
